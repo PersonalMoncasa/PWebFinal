@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Personal Moncasa</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>  
+		<script type="text/javascript">
+			function sendEmail() {
+				var asunto = document.getElementById("name").value
+				var mensaje = document.getElementById("msg").value
+				var correo = document.getElementById("email").value
+				var telefono = document.getElementById("telefono").value
+				Email.send({
+					SecureToken: "8889f94a-df0f-41ae-9a2b-6690a97eaf10",
+					To : 'contacto@personalmoncasa.com',
+					From : correo,
+					Subject : asunto,
+					Body : mensaje +  " El Telefono de " + asunto + "  es: " + telefono,
+				})
+				.then(function(message){
+					alert("mail sent successfully")
+				});
+			}
+		</script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Personal</strong> <span>Moncasa</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#one">Servicios</a></li>
+						<li><a href="landing.html">Sobre Nosotros</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+					<ul class="actions stacked">
+						<li><a href="#contact" class="button primary fit">Solicita tu Asesoría</a></li>
+						<li><a href="https://goo.gl/maps/hHoUcr8RZ9ATczYQ9" class="button fit">Visítanos</a></li>
+					</ul>
+				</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+				<section id="banner" class="major">
+					<div class="inner">
+						<header class="major">
+							<h1>Personal Moncasa.</h1>
+						</header>
+						<div class="content">
+							<p>"Dispersa tu nómina fácil."<br /></p>
+							<ul class="actions">
+								<li><a href="#one" class="button next scrolly">Sobre Nosotros</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Personal Moncasa</h2>
+									</header>
+									<p><b>¿Por qué Personal Moncasa?</b></br >
+										Por que <b>llevamos 10 años</b> otorgando beneficios a tus colaboradores,</br >
+										 <b>optimizando</b> tus procesos organizacionales y 
+										logrando mejores rendimientos para tu <b>empresa</b>.</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="#contact" class="image">
+										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>ADMINISTRACION Y PAGO DE NOMINAS</h3>
+											</header>
+											<p>Moncasa al ser especializado en Nóminas proporciona estrategias fiscales y laborales que cumplen ante la ley, para la gestión de pago de sus empleados Evitamos que su empresa se atrase en altas o bajas de sus colaboradores ante las instituciones correspondientes como el IMSS.</p>
+											<ul class="actions">
+												<li><a href="#contact" class="button">Solicita tu Asesoría</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="#contact" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>RECLUTAMIENTO DE PERSONAL Y SELECCIÓN</h3>
+											</header>
+											<p>Encontramos al talento profesional de forma eficiente y oportuna que su empresa requiere, ahorrando tiempo que pueden utilizar para enfocarse en sus operaciones.
+
+												Reducimos la posibilidad de rotacion de personal de forma productiva y eficiente. Pruebas Psicometricas que ayudan a evaluar y detectar las competencias de sus empleados.</p>
+											<ul class="actions">
+												<li><a href="#contact" class="button">Solicita tu Asesoría</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="#contact" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>ASESORIA FISCAL LABORAL</h3>
+											</header>
+											<p>Consistente en la atención, seguimiento y litigio en diferentes instancias que haya lugar en defensa de los intereses de los clientes de Moncasa y todo los realcionado de las actividades del laborales en materia de fiscalización, determinación de créditos, devoluciones, compensaciones y otros trámites. Todas nuestras operaciones estan soportadas con contratos debidamente requisitados.</p>
+											<ul class="actions">
+												<li><a href="#contact" class="button">Solicita tu Asesoría</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="inner">
+									<header class="major">
+										<h2>Personal Moncasa.</h2>
+									</header>
+									<p>Somos una empresa Mexicana comprometida con nuestros clientes, ofrecemos soluciones fiscales y financieras relacionadas con la administración de su nómina y de su personal de trabajo. tenemos presencia en varios estados del país.
+										Este esquema es reconocido como outsourcing o subcontratación de personal y según la revista Forbes en México, aproximadamente el 50% de las empresas utilizan este modelo para lograr una mejor productividad, rentabilidad y efectividad en las mismas.
+										Contamos con mas de 10 años de experiencia.</p>
+									<ul class="actions">
+										<li><a href="#contact" class="button next">Contactanos</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+				<section id="contact">
+					<div class="inner">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Nombre</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Correo</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field half">
+										<label for="telefono">Telefono</label>
+										<input type="text" name="telefono" id="telefono" />
+									</div>
+									<div class="field">
+										<label for="message">Mensaje</label>
+										<textarea name="message" id="msg" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Enviar" class="primary" onclick="sendEmail()" /></li>
+									<li><input type="reset" value="Limpiar" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split">
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-envelope"></span>
+									<h3>Email</h3>
+									<a href="#">contacto@personalmoncasa.com</a>
+								</div>
+							</section>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-phone"></span>
+									<h3>Teléfono</h3>
+									<span>(33) 3134 1610</span>
+								</div>
+							</section>
+							<section>
+								<div class="contact-method">
+									<span class="icon solid alt fa-home"></span>
+									<h3>Dirección</h3>
+									<span>Dirección: Lopez Mateos Sur #4321<br />
+										Col. La Calma,  C.P. 45070<br />
+										Zapopan, Jalisco.</span>
+								</div>
+							</section>
+						</section>
+					</div>
+				</section>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
