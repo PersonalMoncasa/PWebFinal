@@ -113,6 +113,10 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+			.imgmenu{
+				box-sizing: content-box;
+				width: 80px;
+			}
 /* Type */
 
 	body, input, select, textarea {
