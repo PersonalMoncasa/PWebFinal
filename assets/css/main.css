@@ -115,6 +115,7 @@ input, select, textarea {
 
 			.imgmenu{
 				box-sizing: content-box;
+				margin: 5px;
 				width: 80px;
 			}
 /* Type */
